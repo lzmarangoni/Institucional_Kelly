@@ -1,0 +1,28 @@
+.menu li,a{
+    list-style: none;
+    text-decoration: none;
+    color: #E08382;
+    font-size: .70rem;
+    transition: 1s;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin:  auto;
+    margin-bottom: 1rem;
+}
+
+.menu li{
+    margin: 0 3rem;
+}
+
+.menu a:hover{
+    list-style: none;
+    text-decoration: none;
+    color: #0eeed0;
+    transition: 1s;
+}
+

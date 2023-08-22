@@ -13,8 +13,7 @@ function App() {
 
       <Section tipo={"sectionCustom"} id="1">
        <Content/>
-       <h2>Sobre</h2>
-       <p>Lorem</p>
+      
       </Section>
       <Section tipo={"sectionCustom2"} id="2">
         <p>Teste</p>

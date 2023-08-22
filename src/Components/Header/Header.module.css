@@ -1,29 +1,11 @@
 .headerCustom{
-display: inline;
-text-align: center;
-height: 100%;
-box-sizing: border-box;
-padding: 15rem;
- margin: 3rem;
+    box-sizing: border-box;
+    padding: 1rem;
 }
 
 .headerCustom h1{
-    color: #E08382;
-    margin-bottom: 3rem;
-}
-
-.headerCustom li,a{
-    list-style: none;
-    text-decoration: none;
-    color: #E08382
-  
-}
-
-.menu ul{
-    display: flex;
-    justify-content: center;
-}
-
-.menu li{
-    margin: 0 1rem;
+    margin: 0 0 2rem 6rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color:#E08382;
 }
