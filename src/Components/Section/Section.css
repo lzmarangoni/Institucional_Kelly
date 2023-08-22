@@ -1,0 +1,15 @@
+.sectionCustom{
+    height: 100vh;
+    scroll-behavior: smooth;
+    
+    box-sizing: border-box;
+    padding: 6rem 0;
+    
+}
+.sectionCustom2{
+height: 100vh;
+    scroll-behavior: smooth;
+    
+    box-sizing: border-box;
+    padding: 6rem 0;
+}
