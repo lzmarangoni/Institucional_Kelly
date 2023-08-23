@@ -9,3 +9,13 @@
     font-size: 2rem;
     color:#E08382;
 }
+
+@media screen and (max-width:400px) {
+    .headerCustom h1{
+        font-size:2rem;
+        margin: 0 auto;
+        text-align: right;
+       
+    }
+}
+

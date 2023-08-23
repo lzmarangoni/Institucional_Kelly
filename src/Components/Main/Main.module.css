@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  
+}
+.container{
+    padding: 1rem 4rem;
+}
+.cards{
+    display: flex;
+
+}
+
+.conteudo{
+    display: flex;
+    width:40%;
+}
+
+.text{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:400px){
+    .container{
+        padding: 0 2em;
+    }
+    .main{
+        display: block;
+        padding: 0;
+    }
+    .conteudo{
+        width: 100%;
+    }
+    .cards{
+        display: none;
+    }
+}

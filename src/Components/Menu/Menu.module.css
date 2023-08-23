@@ -2,9 +2,8 @@
     list-style: none;
     text-decoration: none;
     color: #E08382;
-    font-size: .70rem;
+    font-size: 1.2rem;
     transition: 1s;
-    
 }
 
 .menu {
@@ -13,6 +12,16 @@
     width: 70%;
     margin:  auto;
     margin-bottom: 1rem;
+    position: relative;
+    
+}
+.menuOff{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin:  auto;
+    margin-bottom: 1rem;
+
 }
 
 .menu li{
@@ -25,4 +34,49 @@
     color: #0eeed0;
     transition: 1s;
 }
+.menuMobile{
+    display: none;
+}
 
+@media screen and (max-width:400px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        background-color: gray;
+        height: 100vh;
+        position: fixed;
+        width: 70%;
+        top: 0;
+        right: 0;
+        transition-duration: 1s;
+        justify-content: start;
+    }
+
+    .menuOff{
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        background-color: gray;
+        height: 100vh;
+        position: fixed;
+        width: 0;
+        top: 0;
+        right: 0;
+        justify-content: start;
+        transition-duration: 1s;
+    }
+    a{
+        margin: 2rem ;
+    }
+    
+    .menuMobile{
+        display: inline;
+        position: absolute;
+        left: 0;
+        top: .75rem;
+    }
+    
+    
+    
+}

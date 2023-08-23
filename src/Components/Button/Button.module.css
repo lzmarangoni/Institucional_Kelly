@@ -1,0 +1,20 @@
+.buttonCustom{
+    border: solid 1px #E08382;
+    box-sizing: border-box;
+    padding: .7rem .5rem ;
+    color: #E08382;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.buttonCustom:hover{
+    color: #07A58F;
+    border: solid 1px #07A58F;
+    transition-duration: 1s;
+    scale: 1.1;
+}
+
+#botaoMain{
+    position: absolute;
+    right: 0;
+}

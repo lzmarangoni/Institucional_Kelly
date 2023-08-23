@@ -1,7 +1,9 @@
 import "./App.css";
-import Content from "./Components/Content";
 import Header from "./Components/Header";
+import Main from "./Components/Main";
 import Section from "./Components/Section";
+import Sobre from "./Components/Sobre";
+import Videos from "./Components/Videos";
 
 function App() {
 
@@ -12,14 +14,13 @@ function App() {
       <Header itens={opcoes}/>
 
       <Section tipo={"sectionCustom"} id="1">
-       <Content/>
-      
+       <Sobre/>
       </Section>
-      <Section tipo={"sectionCustom2"} id="2">
-        <p>Teste</p>
+      <Section tipo={"sectionCustom"} id="2">
+       <Main></Main>
       </Section>
       <Section tipo={"sectionCustom"} id="3">
-        test 1
+        <Videos/>
       </Section>
       <Section tipo={"sectionCustom2"} id="4">
         test 2

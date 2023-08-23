@@ -1,0 +1,42 @@
+.content {
+  box-sizing: border-box;
+  padding: 0 2rem;
+  background-color: #F2F2F2;
+  height: 20rem;
+  justify-content: center;
+  align-items: center;
+  display: flex ;
+  position: relative;
+}
+
+.image {
+  margin: 0 auto;
+  height: 15rem;
+  border-radius:30%;
+}
+
+.text {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.info{
+  width: 50%;
+  margin: 0 2rem;
+}
+
+@media screen and (max-width:400px) {
+  .content{
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+  }
+  .image{
+    margin: 0 auto;
+  }
+  .info{
+    width: 100%;
+  }
+
+  
+}

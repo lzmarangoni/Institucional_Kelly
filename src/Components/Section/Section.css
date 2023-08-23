@@ -1,4 +1,13 @@
 .sectionCustom{
     height: 100vh;
     box-sizing: border-box;
+    padding: 5rem 0;
+}
+
+@media screen and (max-width:400px) {
+    .sectionCustom{
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
 }
