@@ -10,13 +10,13 @@ export default function Menu({itens}) {
         console.log(abreFecha)
     }
     return (
-        <> 
+        <div className={abreFecha? styles.menu : styles.menuOff}> 
         <HiMenu className={styles.menuMobile} size={40} onClick={trueEfalse}></HiMenu> 
-        <nav className={abreFecha? styles.menu : styles.menuOff}>
+        <nav>
         
                 {itens.map(item => { return <a onClick={trueEfalse} key={item.id} href={item.id}>{item.nome}</a> })}
         </nav>
-        </>
+        </div>
 
     )
 }

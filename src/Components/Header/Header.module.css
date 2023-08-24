@@ -1,10 +1,12 @@
 .headerCustom{
-    box-sizing: border-box;
-    padding: 1rem;
+    padding: .5rem 2rem;
+    position: fixed;
+    background-color: white;
+    width: 100%;
 }
 
 .headerCustom h1{
-    margin: 0 0 2rem 6rem;
+    margin: 0 0 1rem 6rem;
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
     color: #E08382;
