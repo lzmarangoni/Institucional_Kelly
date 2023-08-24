@@ -1,4 +1,4 @@
-.menu li,a{
+a{
     list-style: none;
     text-decoration: none;
     color: #E08382;
@@ -24,10 +24,6 @@
 
 }
 
-.menu li{
-    margin: 0 3rem;
-}
-
 .menu a:hover{
     list-style: none;
     text-decoration: none;
@@ -38,12 +34,12 @@
     display: none;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:415px) {
     .menu {
         display: flex;
         flex-direction: column;
         z-index: 1;
-        background-color: gray;
+        background-color: #E08382;
         height: 100vh;
         position: fixed;
         width: 70%;
@@ -51,13 +47,17 @@
         right: 0;
         transition-duration: 1s;
         justify-content: start;
+        box-sizing: border-box;
+        padding: 2rem 0;
     }
 
     .menuOff{
         display: flex;
+        box-sizing: border-box;
+        padding: 2rem 0;
         flex-direction: column;
         z-index: 1;
-        background-color: gray;
+        background-color: #F2F2F2;
         height: 100vh;
         position: fixed;
         width: 0;
@@ -68,13 +68,19 @@
     }
     a{
         margin: 2rem ;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 1rem;
+        color: white;
     }
     
     .menuMobile{
         display: inline;
-        position: absolute;
-        left: 0;
-        top: .75rem;
+        position: fixed;
+        z-index: 1;
+        left: 0.4rem;
+        top: 1.5rem;
+        color: #E08382;
     }
     
     

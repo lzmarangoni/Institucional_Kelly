@@ -7,15 +7,22 @@
     margin: 0 0 2rem 6rem;
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
-    color:#E08382;
+    color: #E08382;
+
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:415px) {
+    .headerCustom{
+        padding: 1rem ;
+    }
     .headerCustom h1{
-        font-size:2rem;
-        margin: 0 auto;
-        text-align: right;
-       
+        margin: 0;
+        box-sizing: border-box;
+        padding: 1rem 1.5rem;
+        font-family: 'Dancing Script', cursive;
+        font-size: 2.2rem;
+        color: #E08382;
+        text-align: center;
+        justify-content: center;
     }
 }
-

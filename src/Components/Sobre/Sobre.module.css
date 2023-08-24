@@ -6,10 +6,13 @@
   justify-content: center;
   align-items: center;
   display: flex ;
-  position: relative;
+
 }
 
+
+
 .image {
+  
   margin: 0 auto;
   height: 15rem;
   border-radius:30%;
@@ -25,14 +28,16 @@
   margin: 0 2rem;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:415px) {
   .content{
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     height:100%;
+    padding: 0 1rem;
   }
   .image{
-    margin: 0 auto;
+    margin: 0;
+    height: 9rem;
   }
   .info{
     width: 100%;
