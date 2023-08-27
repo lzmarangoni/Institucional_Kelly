@@ -32,8 +32,8 @@ export default function Main() {
         </p>
         </div>
         <div className={styles.cards}>
-          <Card titulo="Atendimento Presencial" imagem={atdPresencial}></Card>
-          <Card titulo="Atendimento Online" imagem={atdOnline}></Card>
+        
+          <Card titulo="Atendimento 100% Online" imagem={atdOnline} texto=""></Card>
         </div>
       
     </div>

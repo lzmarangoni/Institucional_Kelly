@@ -1,7 +1,12 @@
-.container{
+.container {
     box-sizing: border-box;
-    padding: 2rem 4rem;
-}
+    margin-top: 5rem;  
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+   
+   
+  }
 .videos{
     display: flex;
     overflow-x: auto;

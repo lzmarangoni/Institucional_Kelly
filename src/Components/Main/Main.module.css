@@ -1,40 +1,50 @@
-.main{
+.main {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-  
+
 }
-.container{
-    padding: 1rem 4rem;
+
+.container {
+    box-sizing: border-box;
+    margin-top: 10rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
-.cards{
+
+.cards {
     display: flex;
 
 }
 
-.conteudo{
+.conteudo {
     display: flex;
-    width:40%;
+    width: 40%;
 }
 
-.text{
+.text {
     line-height: 1.5rem;
     font-size: 1rem;
     margin: 1rem 0;
 }
 
-@media screen and (max-width:415px){
-    .container{
+@media screen and (max-width:415px) {
+    .container {
         padding: 0 2em;
     }
-    .main{
+
+    .main {
         display: block;
         padding: 0;
     }
-    .conteudo{
+
+    .conteudo {
         width: 100%;
     }
-    .cards{
+
+    .cards {
         display: none;
     }
 }

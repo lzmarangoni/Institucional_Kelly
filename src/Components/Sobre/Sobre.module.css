@@ -1,47 +1,66 @@
 .content {
   box-sizing: border-box;
-  padding: 0 2rem;
-  background-color: #F2F2F2;
-  height: 20rem;
+  margin-top: 6rem;  
+  padding: 2rem;
   justify-content: center;
   align-items: center;
-  display: flex ;
-
+  position: absolute;
 }
-
-
+.info{
+  display: flex;
+  margin: 4rem auto;
+  justify-content: center;
+ }
 
 .image {
-  
-  margin: 0 auto;
-  height: 15rem;
+  height: 18rem;
   border-radius:30%;
 }
 
 .text {
   font-size: 1rem;
-  margin: 1rem 0;
+  margin: 2rem;
+  width: 50%;
+}
+#botaoMain{
+position: absolute;
+bottom: 6rem;
+right: 15rem;
 }
 
-.info{
-  width: 50%;
-  margin: 0 2rem;
-}
+
 
 @media screen and (max-width:415px) {
   .content{
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 6rem 0;
     height:100%;
     padding: 0 1rem;
+    position: relative;
+    justify-content:flex-start;
+
   }
   .image{
-    margin: 0;
-    height: 9rem;
+    margin: 1rem auto;
+    width: 12rem;
+    height: 12rem;
   }
   .info{
     width: 100%;
+    flex-direction: column;
+    margin: 0;
   }
+  .text{
+    width: 100%;
+    margin: 0;
+  }
+
+  #botaoMain{
+    width:80% ;
+    bottom: 5rem;
+    right: 2rem;
+    }
 
   
 }

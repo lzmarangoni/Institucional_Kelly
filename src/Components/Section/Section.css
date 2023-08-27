@@ -1,13 +1,15 @@
-.sectionCustom{
+.sectionCustom {
     height: 100vh;
     box-sizing: border-box;
-    
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 @media screen and (max-width:415px) {
-    .sectionCustom{
+    .sectionCustom {
         text-align: center;
         padding: 2rem 0;
     }
-    
+
 }
