@@ -3,7 +3,7 @@ import styles from "./Menu.module.css";
 import { HiMenu } from "react-icons/hi";
 
 export default function Menu({ itens }) {
-  const [abreFecha, setAbreFecha] = useState(true);
+  const [abreFecha, setAbreFecha] = useState(false);
   const trueEfalse = () => {
     setAbreFecha(!abreFecha);
     console.log(abreFecha);

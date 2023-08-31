@@ -1,0 +1,9 @@
+.videos{
+    display: inline;
+    width: 100vw;
+}
+
+.video{
+    height: 100%;
+    width: 100%;
+}

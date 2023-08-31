@@ -1,30 +1,43 @@
 import "./App.css";
 import Header from "./Components/Header";
-import Main from "./Components/Main";
+import ItemLista from "./Components/ItemLista";
+import WhatsApp from "./Components/LogoWhatsApp";
+
 import Section from "./Components/Section";
-import Sobre from "./Components/Sobre";
-import Videos from "./Components/Videos";
+import Contato from "./Routes/Contato";
+import Main from "./Routes/Main";
+import PerguntasFrequentes from "./Routes/PerguntasFrequentes";
+import Rodape from "./Routes/Rodape";
+import Sobre from "./Routes/Sobre";
+import Videos from "./Routes/Videos";
+
 
 function App() {
 
   /*https://www.isabelaandres.com/*/
-  let opcoes = [{ nome: "Sobre", id: "#1" }, { nome: "Terapia ", id: "#2" },{ nome: "Videos", id: "#3" },{ nome: "Contato", id: "#4" },];
+  let opcoes = [{ nome: "Sobre", id: "#1" }, { nome: "Terapia Online ", id: "#2" },{ nome: "Videos", id: "#3" },{ nome: "Dúvidas Frequentes", id: "#4" },{ nome: "Contato", id: "#5" },];
   return (
     <div className="App">
       <Header itens={opcoes}/>
-
-      <Section tipo={"sectionCustom"} id="1">
+      <Section  id="1">
        <Sobre/>
       </Section>
-      <Section tipo={"sectionCustom"} id="2">
+      <Section  id="2">
        <Main></Main>
       </Section>
-      <Section tipo={"sectionCustom"} id="3">
+      <Section  id="3">
         <Videos/>
       </Section>
-      <Section tipo={"sectionCustom2"} id="4">
-        test 2
+      <Section id="4">
+        <PerguntasFrequentes/>
       </Section>
+      <Section id="5">
+        <Contato/>
+      </Section>
+    
+        <Rodape/>
+    
+      <WhatsApp className="whatsapp"/>
     </div>
   );
 }

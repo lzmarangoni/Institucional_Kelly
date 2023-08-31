@@ -1,25 +1,51 @@
 .card{
     margin: .5rem;
-    height: 14rem;
     width: 22rem;
+    height: 15rem;
     background-color: #f2f2f2;
     border-radius: 18px;
     box-sizing: border-box;
     padding: 1rem;
-  
 }
 .simbolo{
     display: flex;
     align-items: center;
-    color: #E08382
-    
+    color: #E08382;
 }
 .titulo{
-   margin-left: 1rem;
-   font-size: 1.8rem;
+    margin-left: 1rem;
     font-weight: 700;  
+    font-size: 1.5rem;
 }
 .texto{
     box-sizing: border-box;
     padding: 1rem 0;
+    line-height: normal;
+}
+
+@media screen and (max-width:415px) {
+    .card{
+        margin: .5rem;
+        width: 18rem;
+        height: 15rem;
+        background-color: #f2f2f2;
+        border-radius: 18px;
+        box-sizing: border-box;
+        padding: 1rem;
+    }
+    .simbolo{
+        display: flex;
+        align-items: center;
+        color: #E08382;
+    }
+    .titulo{
+        margin-left: 1rem;
+        font-weight: 700;  
+        font-size: 1.5rem;
+    }
+    .texto{
+        box-sizing: border-box;
+        padding: 1rem 0;
+        line-height: normal;
+    }
 }

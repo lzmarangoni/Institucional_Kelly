@@ -1,7 +1,6 @@
 .menu {
     display: flex;
     justify-content: space-around;
-    width: 70%;
     margin: 0 auto;
     margin-bottom: 1rem;
     position: relative;
@@ -9,7 +8,6 @@
 .menuOff {
     display: flex;
     justify-content: space-around;
-    width: 70%;
     margin: 0 auto;
     margin-bottom: 1rem;
     position: relative;
@@ -18,17 +16,16 @@
 .lista {
     display: flex;
     justify-content: space-between;
-    width: 60%;
     margin: 0 auto;
 }
 
 a {
-    margin: 2rem;
-    font-weight: 500;
+    
+    font-weight: 700;
     font-size: 1.5rem;
-    margin: 1rem;
+    margin: 2rem;
     color: #E08382;
-    transition: 1s;
+    transition: .5s;
 }
 
 
@@ -37,7 +34,7 @@ a:hover {
     list-style: none;
     text-decoration: none;
     color: #0eeed0;
-    transition: 1s;
+    transition: .5s;
 }
 
 .menuMobile {
@@ -78,7 +75,6 @@ a:hover {
     }
 
     a {
-        margin: 2rem;
         font-weight: 700;
         font-size: 1.5rem;
         margin: 1rem;

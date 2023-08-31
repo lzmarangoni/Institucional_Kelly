@@ -1,0 +1,35 @@
+.videos{
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.video{
+    margin: 0 4px;
+}
+
+
+
+
+@media screen and (max-width:418px) {
+    
+
+.videos{
+    background-color: beige;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  
+    flex-wrap: nowrap;
+    justify-content: none;
+  
+
+}
+
+.video{
+    scroll-snap-align: center;
+    margin:  1rem;
+    height: 10rem;
+}
+}

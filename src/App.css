@@ -56,7 +56,13 @@ a{
 .App {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
-  
+  position: relative;
  
+}
+
+.whatsapp{
+	position: fixed;
+	bottom: 1rem;
+	right: -.75rem;
 }
 

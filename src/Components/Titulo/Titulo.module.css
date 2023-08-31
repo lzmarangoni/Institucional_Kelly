@@ -4,12 +4,19 @@
     color: #E08382;
     transition: 1s;
     margin: 1rem 0;
-  
+
   }
 
   .caixaTitle{
     border-bottom: #E08382 solid .2rem;
-    
+    border-bottom: #0eeed0 solid .2rem;
+   
     box-sizing: border-box;
     padding-bottom: 1rem;
+  }
+
+  @media screen and (max-width:415px) {
+    .title{
+      line-height: 3.5rem;
+    }
   }

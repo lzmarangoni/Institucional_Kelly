@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./Main.module.css";
-import Card from "../Card";
+import Card from "../../Components/Card"
 import { HiClock, HiHome, HiMap, HiChatAlt2 } from "react-icons/hi";
 
-import Titulo from "../Titulo";
+import Titulo from "../../Components/Titulo";
+import Button from "../../Components/Button";
 
 export default function Main() {
   const beneficios = [
@@ -33,10 +34,10 @@ export default function Main() {
     },
   ];
   return (
-    <div className={styles.container}>
-      <Titulo>Terapia e movimento</Titulo>
+    <>
+      <Titulo>Terapia Online</Titulo>
       <div className={styles.main}>
-        <div className={styles.conteudo}>
+        {/*<div className={styles.conteudo}>
           <p className={styles.text}>
             Quero compartilhar com vocês desse movimento de transformação que a
             terapia gera na gente. Como diz a primeira lei de Newton:
@@ -53,11 +54,13 @@ export default function Main() {
             em movimento. Mas um movimento de transformação diária, de
             autoconhecimento, e desenvolvimento interpessoal.
           </p>
-        </div>
+          <Button>Agende sua consulta</Button>
+  </div>*/}
+        
         <div className={styles.cards}>
           {beneficios.map(beneficio => {return <Card data={beneficio}/>}) }
         </div>
       </div>
-    </div>
+    </>
   );
 }

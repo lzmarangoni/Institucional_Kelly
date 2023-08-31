@@ -1,9 +1,9 @@
 import React from 'react'
-import './Section.css'
+import styles from './Section.module.css'
 
-export default function Section({id, children, tipo}) {
+export default function Section({children, id}) {
   return (
-    <section className={tipo} id={id}>
+    <section className={styles.sectionCustom} id={id}>
         {children}
     </section>
   )
