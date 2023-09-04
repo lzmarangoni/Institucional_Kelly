@@ -44,15 +44,15 @@
     .main {
         display: block;
         padding: 0;
+        margin: 1rem 0;
+        width: 100%;
     }
 
     .conteudo {
         width: 100%;
     }
 
-    .cards {
-  
-    }
+ 
     .text{
         font-size: 1.2rem;
         line-height: normal;

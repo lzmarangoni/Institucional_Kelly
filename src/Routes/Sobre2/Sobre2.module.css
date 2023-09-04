@@ -1,0 +1,52 @@
+
+.comoFunciona h2{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.conteudo {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center; 
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo p {
+    width: 50%;
+}
+
+.frase{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 2.5rem;
+}
+
+
+@media screen and (max-width:415px) {
+    .conteudo {
+        text-align: center;
+        padding: 2rem 4rem 0 1.5rem;
+        display: block;
+        font-size: 1.25rem;
+        
+    }
+    .conteudo p {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+    .comoFunciona{
+        margin: 3rem 0;
+    }
+    .comoFunciona h2{
+        font-size: 1.5rem;
+    }
+
+}

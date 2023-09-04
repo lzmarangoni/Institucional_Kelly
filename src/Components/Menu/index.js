@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Menu.module.css";
-import { HiMenu } from "react-icons/hi";
+import { HiMenu, HiX } from "react-icons/hi";
 
 export default function Menu({ itens }) {
   const [abreFecha, setAbreFecha] = useState(false);
@@ -16,6 +16,12 @@ export default function Menu({ itens }) {
         onClick={trueEfalse}
       ></HiMenu>
       <nav className={abreFecha ? styles.menu : styles.menuOff}>
+        <HiX
+        className={styles.closeMenuMobile}
+        size={50}
+        onClick={trueEfalse}
+        >
+        </HiX>
         <ul className={styles.lista}>
           {itens.map((item) => {
             return (

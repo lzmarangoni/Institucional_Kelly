@@ -10,7 +10,7 @@
 .simbolo{
     display: flex;
     align-items: center;
-    color: #E08382;
+    color:#125872;;
 }
 .titulo{
     margin-left: 1rem;
@@ -25,18 +25,12 @@
 
 @media screen and (max-width:415px) {
     .card{
-        margin: .5rem;
-        width: 18rem;
-        height: 15rem;
-        background-color: #f2f2f2;
-        border-radius: 18px;
-        box-sizing: border-box;
-        padding: 1rem;
+        
     }
     .simbolo{
         display: flex;
         align-items: center;
-        color: #E08382;
+        color: #125872;
     }
     .titulo{
         margin-left: 1rem;

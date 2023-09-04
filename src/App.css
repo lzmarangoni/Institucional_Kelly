@@ -57,12 +57,19 @@ a{
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
   position: relative;
- 
+width: 100%;
 }
 
 .whatsapp{
 	position: fixed;
 	bottom: 1rem;
-	right: -.75rem;
+	right: 1rem;
 }
 
+@media screen and (max-width:415px) {
+	.whatsapp{
+		position: fixed;
+		bottom: .5rem;
+		right: .5rem;
+	}
+}

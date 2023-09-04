@@ -9,35 +9,43 @@ import Main from "./Routes/Main";
 import PerguntasFrequentes from "./Routes/PerguntasFrequentes";
 import Rodape from "./Routes/Rodape";
 import Sobre from "./Routes/Sobre";
+import Sobre2 from "./Routes/Sobre2";
 import Videos from "./Routes/Videos";
 
-
 function App() {
-
-  /*https://www.isabelaandres.com/*/
-  let opcoes = [{ nome: "Sobre", id: "#1" }, { nome: "Terapia Online ", id: "#2" },{ nome: "Videos", id: "#3" },{ nome: "Dúvidas Frequentes", id: "#4" },{ nome: "Contato", id: "#5" },];
+  
+  let opcoes = [
+    { nome: "Sobre", id: "#1" },
+    { nome: "Terapia Online ", id: "#2" },
+    { nome: "Videos", id: "#3" },
+    { nome: "Dúvidas Frequentes", id: "#4" },
+    { nome: "Contato", id: "#5" },
+  ];
   return (
     <div className="App">
-      <Header itens={opcoes}/>
-      <Section  id="1">
-       <Sobre/>
+      <Header itens={opcoes} />
+      <Section id="1">
+        <Sobre />
       </Section>
-      <Section  id="2">
-       <Main></Main>
+      
+        <Sobre2 />
+     
+      <Section id="2">
+        <Main></Main>
       </Section>
-      <Section  id="3">
-        <Videos/>
+      <Section id="3">
+        <Videos />
       </Section>
       <Section id="4">
-        <PerguntasFrequentes/>
+        <PerguntasFrequentes />
       </Section>
       <Section id="5">
-        <Contato/>
+        <Contato />
       </Section>
-    
-        <Rodape/>
-    
-      <WhatsApp className="whatsapp"/>
+
+      <Rodape />
+
+      <WhatsApp className="whatsapp" />
     </div>
   );
 }

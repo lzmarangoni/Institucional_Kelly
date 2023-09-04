@@ -6,17 +6,11 @@
   box-sizing: border-box;
 }
 
-.comoFunciona h2{
-  background-color: gray;
-}
-.lista{
-  list-style:disc;
-  margin: 0  0 1.5rem 1.5rem;
-}
+
 .info{
   display: flex;
   margin: 2rem auto;
-  justify-content: center;
+  align-items: center;
  }
 
 .image {
@@ -39,10 +33,18 @@
 #botaoMain{
   margin-top: 3rem;
 }
+#botaoMain a{
+  margin: 0;
+}
 
 .textstyle{
   padding: 1rem 0;
   font-weight: 700;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  padding: .5rem;
+  border-radius: 15px;
+  margin: 1rem 0;
 }
 
 
@@ -81,7 +83,12 @@
     width:80% ;
     bottom: 5rem;
     right: 2rem;
+    margin: 1.5rem 0;
+    
     }
+  #botaoMain a{
+    color: #125872;
+  }
 
   
 }

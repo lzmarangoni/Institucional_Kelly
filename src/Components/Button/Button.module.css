@@ -1,8 +1,8 @@
 .buttonCustom{
-    border: solid 1px #E08382;
+    border: solid 1px #125872;
     box-sizing: border-box;
     padding: .7rem .5rem ;
-    color: #E08382;
+ 
     border-radius: 10px;
     transition-duration: 1s;
 }
@@ -14,7 +14,3 @@
     scale: 1.1;
 }
 
-#botaoMain{
-    
-    align-items: center;
-}

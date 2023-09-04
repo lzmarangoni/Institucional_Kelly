@@ -1,9 +1,11 @@
 .menu {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     margin: 0 auto;
     margin-bottom: 1rem;
     position: relative;
+    text-align: center;
+   
 }
 .menuOff {
     display: flex;
@@ -11,33 +13,36 @@
     margin: 0 auto;
     margin-bottom: 1rem;
     position: relative;
+    text-align: center;
 }
 
 .lista {
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
+    align-items: center;
+    
 }
 
-a {
-    
+.lista a {
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 1.5rem;
     margin: 2rem;
-    color: #E08382;
+    color:#125872;
     transition: .5s;
 }
 
 
 
-a:hover {
+.lista a:hover {
     list-style: none;
     text-decoration: none;
     color: #0eeed0;
     transition: .5s;
 }
 
-.menuMobile {
+.menuMobile, .closeMenuMobile {
     display: none;
 }
 
@@ -46,7 +51,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         z-index: 1;
-        background-color: #E08382;
+        background-color: #125872;
         height: 100vh;
         position: fixed;
         width: 70%;
@@ -74,14 +79,15 @@ a:hover {
         transition-duration: 1s;
     }
 
-    a {
+    .lista a {
         font-weight: 700;
         font-size: 1.5rem;
         margin: 1rem;
         color: white;
+        
     }
 
-    a:hover {
+    lista a:hover {
         list-style: none;
         text-decoration: none;
         color: #0eeed0;
@@ -98,9 +104,17 @@ a:hover {
         display: inline;
         position: fixed;
         z-index: 1;
-        left: 0.4rem;
+        right: 0.4rem;
         top: 1.5rem;
-        color: #E08382;
+        color: #125872;
+    }
+
+    .closeMenuMobile{
+        display: inline;
+        margin-left: 80%;
+        
+        
+        color: white;
     }
 
 
