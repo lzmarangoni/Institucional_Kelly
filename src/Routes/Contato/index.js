@@ -9,7 +9,7 @@ export default function Contato() {
         <Titulo>Contato</Titulo>
         <div className={styles.content}>
         <h3 className={styles.subtitulo}>Agende agora sua consulta de forma rápida, clicando no botão abaixo</h3>
-        <Button>Agendar Consulta Online</Button>
+        <Button><a className={styles.link} href="https://contate.me/kellycabrera">Agendar Consulta Online</a></Button>
         </div>
         
     </div>
