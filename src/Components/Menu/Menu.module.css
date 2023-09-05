@@ -26,8 +26,8 @@
 .lista a {
     display: flex;
     justify-content: center;
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
     margin: 2rem;
     color:#125872;
     transition: .5s;

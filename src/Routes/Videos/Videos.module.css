@@ -17,7 +17,7 @@
     
 
 .videos{
-    background-color: beige;
+    background-color:rgb(238, 232, 232);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
   

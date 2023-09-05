@@ -15,31 +15,31 @@ import Videos from "./Routes/Videos";
 function App() {
   
   let opcoes = [
-    { nome: "Sobre", id: "#1" },
-    { nome: "Terapia Online ", id: "#2" },
-    { nome: "Videos", id: "#3" },
-    { nome: "Dúvidas Frequentes", id: "#4" },
-    { nome: "Contato", id: "#5" },
+    { nome: "Sobre", id: "#sobre" },
+    { nome: "Terapia Online ", id: "#terapia_online" },
+    { nome: "Entrevistas", id: "#entrevistas" },
+    { nome: "Dúvidas Frequentes", id: "#duvidas" },
+    { nome: "Contato", id: "#contato" },
   ];
   return (
     <div className="App">
       <Header itens={opcoes} />
-      <Section id="1">
+      <Section id="sobre">
         <Sobre />
       </Section>
       
         <Sobre2 />
      
-      <Section id="2">
+      <Section id="terapia_online">
         <Main></Main>
       </Section>
-      <Section id="3">
+      <Section id="entrevistas">
         <Videos />
       </Section>
-      <Section id="4">
+      <Section id="duvidas">
         <PerguntasFrequentes />
       </Section>
-      <Section id="5">
+      <Section id="contato">
         <Contato />
       </Section>
 

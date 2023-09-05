@@ -6,7 +6,7 @@ export default function Videos() {
  
   return (
     <>
-      <Titulo>Videos</Titulo>
+      <Titulo>Entrevistas</Titulo>
       <div className={styles.videos}>
         <iframe
           title="Video1"

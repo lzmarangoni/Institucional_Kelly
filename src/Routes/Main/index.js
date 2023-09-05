@@ -58,7 +58,7 @@ export default function Main() {
   </div>*/}
         
         <div className={styles.cards}>
-          {beneficios.map(beneficio => {return <Card data={beneficio}/>}) }
+          {beneficios.map(beneficio => {return <Card key={beneficio.titulo} data={beneficio}/>}) }
         </div>
       </div>
     </>

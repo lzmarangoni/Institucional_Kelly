@@ -1,10 +1,11 @@
 
 .comoFunciona h2{
-    background-color: black;
+    background-color: #125872;
     color: white;
     box-sizing: border-box;
     padding: 1rem;
     font-size: 2rem;
+    text-align: center;
 }
 
 .conteudo {
@@ -12,21 +13,23 @@
     justify-content: center;
     align-items: center; 
     padding: 3rem 2rem;
-    display: flex;
+  
     justify-content: space-between;
     align-items: center;
 }
 
 .conteudo p {
-    width: 50%;
+    margin: 2rem 0 4rem 0 ;
+    font-size: 1.2rem;
 }
 
 .frase{
     text-align: center;
     font-size: 1.2rem;
     font-style: italic;
-    line-height: 2.5rem;
+    
 }
+
 
 
 @media screen and (max-width:415px) {
@@ -41,6 +44,7 @@
         width: 100%;
         text-align: left;
         margin-bottom: 3rem;
+        font-size: 1rem;
     }
     .comoFunciona{
         margin: 3rem 0;

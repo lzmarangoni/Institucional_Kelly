@@ -4,7 +4,7 @@ import styles from "./Sobre2.module.css";
 export default function Sobre2() {
   return (
     <div className={styles.comoFunciona}>
-      <h2>Como Funciona meu Trabalho?</h2>
+      <h2 className={styles.subtitulo}>Como Funciona meu Trabalho?</h2>
       <div className={styles.conteudo}>
         <p>
           Olá, seja bem vindo! Sou a Kelly Cabrera, Psicóloga clínica e estou
@@ -21,10 +21,14 @@ export default function Sobre2() {
         </p>
         <h3 className={styles.frase}>
           "Quando a situação for boa, desfrute-a,
-          <br></br>
+          <br/>
           Quando a situação for ruim, transforme-a,
-          <br></br>
+         <br/>
           Quando a situação não puder ser transformada, transforme-se"
+          <br></br>
+          <p>
+            <strong>Viktor Frankl</strong>
+          </p>
         </h3>
       </div>
     </div>

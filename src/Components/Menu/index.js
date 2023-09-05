@@ -6,7 +6,7 @@ export default function Menu({ itens }) {
   const [abreFecha, setAbreFecha] = useState(false);
   const trueEfalse = () => {
     setAbreFecha(!abreFecha);
-    console.log(abreFecha);
+   
   };
   return (
     <>
@@ -25,7 +25,7 @@ export default function Menu({ itens }) {
         <ul className={styles.lista}>
           {itens.map((item) => {
             return (
-              <li className={styles.itemDaLista}>
+              <li key={item.id} className={styles.itemDaLista}>
                 <a onClick={trueEfalse} key={item.id} href={item.id}>
                   {item.nome}
                 </a>

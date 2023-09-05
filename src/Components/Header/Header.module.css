@@ -1,14 +1,15 @@
 .headerCustom{
     padding: .7rem 0;
     position: fixed;
-    top: 0;
-    background-color:  white   ;
+    top: -.45rem;
+    background-color:  rgb(238, 232, 232);
     width: 100%;
     height: auto;
     z-index: 1;
     box-shadow: .2rem .2rem 15rem gray;
     display: flex;
     align-items: center;
+    border-radius: 15px;
 }
 .headerCustom img{
     width: 34rem;

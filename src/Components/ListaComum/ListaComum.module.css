@@ -3,8 +3,10 @@
     margin: 0  0 1.5rem 1.5rem;
   }
 .item{
-    font-size: 1.25rem;
+    font-size: 1.rem;
     line-height: 2rem;
+    font-weight: 700;
+    color: #125872;
 }
 
 @media screen and (max-width:415px) {

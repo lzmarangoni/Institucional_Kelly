@@ -1,4 +1,13 @@
-.lateralInfo{
+.sobre{
+  display: flex;
+  margin: 1rem 0;
+  
+ }
+ .perfil{
+  width: 50%;
+  
+ }
+ .lateralInfo{
   display: flex;
   flex-direction: column;
   margin: 1rem ;
@@ -6,16 +15,10 @@
   box-sizing: border-box;
 }
 
-
-.info{
-  display: flex;
-  margin: 2rem auto;
-  align-items: center;
- }
-
 .image {
-  height: 18rem;
+  height: 15rem;
   border-radius:30%;
+  margin-top: 1rem;
 }
 
 .frase{
@@ -31,7 +34,7 @@
 }
 
 #botaoMain{
-  margin-top: 3rem;
+  margin: .75rem auto;
 }
 #botaoMain a{
   margin: 0;
@@ -47,10 +50,45 @@
   margin: 1rem 0;
 }
 
+.apresentacao{
+  width: 70%;
+  background-color: #125872;
+  color: white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 2rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.apresentacaoTexto{
+  box-sizing: border-box;
+  padding: 0 3rem;
+}
+
+.fotoNome{
+  display: flex;
+  box-sizing: border-box;
+  padding: .5rem;
+}
+
+.subtitulo{
+  font-size: 1.25rem;
+  margin: auto 1rem ;
+
+}
+
+.fotoIlustrativa{
+  width: 50%;
+  margin: 0 auto;
+}
+
 
 @media screen and (max-width:415px) {
   .lateralInfo{
     margin: 0;
+   
   }
   .content{
     display: flex;
@@ -67,7 +105,7 @@
     width: 12rem;
     height: 12rem;
   }
-  .info{
+  .sobre{
     width: 100%;
     flex-direction: column;
     margin: 0;
@@ -89,6 +127,21 @@
   #botaoMain a{
     color: #125872;
   }
-
+  .perfil{
+    width: 100%;
+    
+   }
+   .apresentacao{
+    width: 100%;
+   }
+   .apresentacaoTexto{
+    padding: 0;
+   }
+   .fotoIlustrativa{
+    width: 100%;
+   }
+   .subtitulo{
+    display: none;
+   }
   
 }

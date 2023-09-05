@@ -1,12 +1,11 @@
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     box-sizing: border-box;
     height: 100%;
-    margin: 1rem auto;
-    width: 70%;
+    width: 100%;
     align-items: center;
-
+   
 }
 
 .content {
@@ -40,12 +39,16 @@
     .container {
         padding: 0 2em;
     }
+    .cards{
+        flex-wrap: wrap;
+    }
 
     .main {
         display: block;
         padding: 0;
         margin: 1rem 0;
         width: 100%;
+    
     }
 
     .conteudo {

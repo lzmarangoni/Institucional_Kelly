@@ -1,30 +1,30 @@
 {
     "perguntas":[
-        {
+        {   "id":"1",
             "pergunta": "COMO SABER SE EU PRECISO FAZER TERAPIA?",
             "resposta":"Algumas pessoas buscam a terapia por estarem enfrentando momentos de crise e conflitos, comprometendo a possibilidade de exercer suas atividades diárias, como: ansiedade, angústia, depressão, estresse, transtornos alimentares entre outras.  Outras pessoas se motivam a procurar pela terapia mesmo sem identificar um problema específico. Nesse caso, a vontade e o interesse em iniciar um processo terapêutico já podem ser considerados motivos suficientes para agendar uma consulta."       
         },
-        {
+        {   "id":"2",
             "pergunta": "POR QUANTO TEMPO TEREI QUE FAZER TERAPIA?",
             "resposta":"A duração da psicoterapia é indeterminada, uma vez que a mesma ocorre em função das necessidades específicas de cada caso, não se estendendo além do tempo necessário."       
         },
-        {
+        {   "id":"3",
             "pergunta": "DECIDI FAZER TERAPIA, QUAL O PRIMEIRO PASSO?",
             "resposta":"Entre em contato através dos links para o WhatsApp. Em poucos minutos minha assistente responderá e lhe conduzirá para o agendamento da sua primeira consulta."       
         },
-        {
+        {   "id":"4",
             "pergunta": "QUANTO CUSTA UMA SESSÃO DE TERAPIA?",
             "resposta":"Por orientação do Conselho Regional de Psicologia, a divulgação dos valores das sessões na internet não é muito incentivada. Para saber todos os detalhes sobre a terapia e o investimento, por gentileza, entre em contato pelo WhatsApp e teremos o prazer de apresentar nossos planos."       
         },
-        {
+        {   "id":"5",
             "pergunta": "A PSICOTERAPIA ONLINE É EFICAZ?",
             "resposta":"Sim! Ela é tão eficaz quanto a presencial. Se o paciente está engajado no processo de mudança a forma de atendimento é indiferente. Além disso, a modalidade online possibilita o atendimento a pessoas que estão em outras cidades ou fora do Brasil. O atendimento online também obedece todas as exigências, de acordo com as normas e obrigatoriedades do CFP (Conselho Federal de Psicologia)."       
         },
-        {
+        {   "id":"6",
             "pergunta": "VOCÊ ATENDE PLANO DE SAÚDE?",
             "resposta":"Não, atendimento apenas particular."       
         },
-        {
+        {   "id":"7",
             "pergunta": "VOCÊ ATENDE PACIENTES DE TODAS AS IDADES?",
             "resposta":"Realizo atendimentos a adolescentes, adultos e idosos."       
         }

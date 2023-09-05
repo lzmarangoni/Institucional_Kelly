@@ -2,9 +2,10 @@
     border: solid 1px #125872;
     box-sizing: border-box;
     padding: .7rem .5rem ;
- 
+    margin: 0 auto;
     border-radius: 10px;
     transition-duration: 1s;
+    background-color: rgb(238, 232, 232);
 }
 
 .buttonCustom:hover{

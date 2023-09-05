@@ -11,7 +11,7 @@ export default function PerguntasFrequentes() {
     <div className={styles.pergFrequentes}>
         <Titulo>Dúvidas Frequentes</Titulo>
         <div className={styles.duvidas}>
-        {itens.map( (item) => { return <ItemLista pergunta={item.pergunta} resposta={item.resposta}/>})}
+        {itens.map( (item) => { return <ItemLista key={item.id} pergunta={item.pergunta} resposta={item.resposta}/>})}
         </div>
         
     </div>
