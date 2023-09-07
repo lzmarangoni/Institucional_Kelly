@@ -1,0 +1,49 @@
+.card{
+    margin: .5rem;
+    width: 35rem;
+    height: 20rem;
+    background-color: rgb(238, 232, 232);
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.simbolo{
+    display: flex;
+    align-items: center;
+    color:rgb(255, 196, 0);;
+}
+.titulo{
+    margin-left: 1rem;
+    font-weight: 700;  
+    font-size: 1.5rem;
+}
+.texto{
+    box-sizing: border-box;
+    padding: 1rem 0;
+    line-height: normal;
+    font-style: italic;
+}
+.nome{
+    text-align: left;
+}
+
+@media screen and (max-width:415px) {
+    .card{
+        height: 100%;
+    }
+    .simbolo{
+        display: flex;
+        align-items: center;
+      
+    }
+    .titulo{
+        margin-left: 1rem;
+        font-weight: 700;  
+        font-size: 1.5rem;
+    }
+    .texto{
+        box-sizing: border-box;
+        padding: 1rem 0;
+        line-height: normal;
+    }
+}

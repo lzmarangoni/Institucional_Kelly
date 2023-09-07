@@ -4,7 +4,7 @@ import image from "./perfil.jpg";
 import Button from "../../Components/Button";
 import Titulo from "../../Components/Titulo";
 import ListaComum from "../../Components/ListaComum";
-import atendimento from './Atendimento Presencial.png'
+import atendimento from "./Atendimento Presencial.png";
 
 export default function Sobre() {
   const primeiraLista = [
@@ -21,18 +21,15 @@ export default function Sobre() {
         <div className={styles.perfil}>
           <div className={styles.fotoNome}>
             <img className={styles.image} src={image} alt="" />
-            <h3 className={styles.subtitulo}>Dra. Kelly Cabrera <br></br> Psicóloga Clínica</h3>
+           
             
           </div>
-          
+
           <div className={styles.lateralInfo}>
             <ListaComum lista={primeiraLista} />
             <Button id={styles.botaoMain}>
               <a href="https://contate.me/kellycabrera">Agende sua consulta</a>
             </Button>
-            <p className={styles.textstyle} style={{ fontWeight: "700" }}>
-              Realizo Atendimento apenas para adolescentes e adultos.
-  </p>
           </div>
         </div>
         <div className={styles.apresentacao}>
@@ -45,16 +42,19 @@ export default function Sobre() {
             pessoal na vida.
           </p>
           <br></br>
-          <img className={styles.fotoIlustrativa} src={atendimento} alt="atendimento presencial"/>
+          <img
+            className={styles.fotoIlustrativa}
+            src={atendimento}
+            alt="atendimento presencial"
+          />
           <h3 className={styles.frase}>
             "Nada proporciona melhor capacidade de superação e resistência aos
             problemas e dificuldades em geral do que a consciência de ter uma
             missão á cumprir na vida."
             <p>
-            <strong>Viktor Frankl</strong>
-          </p>
+              <strong>Viktor Frankl</strong>
+            </p>
           </h3>
-          
         </div>
       </div>
     </>

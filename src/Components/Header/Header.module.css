@@ -1,4 +1,9 @@
+.header{
+    display: flex;
+}
+
 .headerCustom{
+    box-sizing: border-box;
     padding: .7rem 0;
     position: fixed;
     top: -.45rem;
@@ -12,7 +17,7 @@
     border-radius: 15px;
 }
 .headerCustom img{
-    width: 34rem;
+    width: 30rem;
 }
 
 .headerCustom h1{

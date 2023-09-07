@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+   
+}
+
+.content {
+    box-sizing: border-box;
+    margin-top: 3.5rem;  
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    
+}
+
+.conteudo {
+    width: 60%;
+}
+
+.text {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:415px) {
+    .container {
+        padding: 0 2em;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+
+    .main {
+        display: block;
+        padding: 0;
+        margin: 1rem 0;
+        width: 100%;
+    
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+ 
+    .text{
+        font-size: 1.2rem;
+        line-height: normal;
+        text-align: left;
+    }
+}
